@@ -1,0 +1,152 @@
+.project{
+	display:block;
+	margin:20px 10px;
+	border-radius:10px;
+-webkit-box-shadow: 6px 6px 29px 0px rgba(83,104,114,1);
+-moz-box-shadow: 6px 6px 29px 0px rgba(83,104,114,1);
+box-shadow: 6px 6px 29px 0px rgba(83,104,114,1);
+padding:20px;	
+}
+h2.p-title{
+		font-size:20px;
+		font-weight:bold;
+		margin-bottom:10px;
+	}
+	
+	.p-desc
+	{
+		display:flex;
+		flex-flow: row wrap;
+		
+	}
+	.ex_img
+	{
+		width:25%;
+		margin:20px 15px 5px 5px;
+		min-width:200px;
+	}
+	.ex_img img
+	{
+		width:100%;
+		height:auto;
+	}
+	.s-desc{
+		width:70%;
+		font-size:16px;
+		text-align:justify;
+		margin-right:10px;
+		line-height:23px;
+		margin-top:10px;
+		min-width:280px;
+	}
+	
+	.p-pubs
+	{
+		margin:15px 0 0 10px;
+	}
+	.publist h3{
+		font-size:18px;
+		color:#CB4154;
+		font-weight:bold;
+	}
+	.me{
+	font-weight:bold;
+}
+.ptitle, .venue, .auth
+{
+	display:block;
+}
+.venue, .auth
+{
+	padding-left:20px;
+}
+.publist li
+{
+	margin-bottom:10px;
+	font-size:15px;
+	
+}
+.venue .comment{
+	float:right;
+	margin-right:20px;
+	background-color:#6699CC;
+	font-weight:bold;
+		border-radius: 5px;
+		padding:1px 7px;
+		color:white;
+		font-size:12px;
+}
+
+.venue .award{
+	float:right;
+	margin-right:20px;
+	background-color:#B31B1B;
+	font-weight:bold;
+		border-radius: 5px;
+		padding:1px 7px;
+		color:white;
+		font-size:12px;
+}
+.pub{
+	margin:15px 0 0 15px;
+	line-height:20px;
+}
+.projects__nav
+{
+	padding-top:40px;
+	position:fixed;
+	display:flex;
+	width:100%;
+	flex-flow:row wrap;
+	top: 0;
+	left:0;
+	z-index:3;
+	
+}
+.pnav
+{
+	background-color:white;
+	
+	padding:0px 50px 10px 20px;
+			display:flex;
+			flex-flow: row wrap;
+			visibility:hidden;
+			border-bottom: thick solid #CB4154;
+	border-width: 3px;
+}
+@media only screen and (min-width: 768px) {
+	.projects__nav
+{
+	padding-top:0px;
+}
+	.pnav
+{
+	padding:0 50px 10px 300px;
+
+}
+}
+.projects__nav div.pnavi
+{
+	padding:10px;
+	margin:10px 10px 0 0;
+	font-size:15px;
+	font-weight:bold;
+	min-width:180px;
+		border-radius: 10px;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+	background-color:#CB4154;
+	color:white;
+	
+	
+}
+.projects__nav div.pnavi:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .9;
+}
+#projects{
+	margin-top:50px;
+	position: relative;
+	z-index:1;
+}

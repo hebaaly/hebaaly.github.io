@@ -1,0 +1,78 @@
+#awards .timeline {
+  position: relative;
+  overflow: auto;
+}
+#awards .timeline:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background: #960018;
+  left: 0;
+}
+#awards .timeline h2 {
+  background: #ffffff;
+  font-weight:bold;
+  border-bottom: 0.14em solid #960018;
+  max-width: 6em;
+  margin: 0 auto 0.2em;
+  padding: 0.25em;
+  text-align: center;
+  left: 38%;
+  position: relative;
+  clear: both;
+  color: #CB4154	;
+}
+#awards .timeline ul {
+  list-style: none;
+  padding: 0 0 0 1em;
+  z-index: 1;
+}
+#awards .timeline li {
+  background: #F5F5F5;
+  padding: 0.2em;
+  padding-left:1em;
+   padding-right:1em;
+  margin-bottom: 0.15em;
+  position: relative;
+  border-radius: .25em 0 .25em .25em;
+  font-weight:400;
+}
+#awards .timeline li:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 1em solid #F5F5F5;
+  border-right: 1em solid transparent;
+  position: absolute;
+  right: -1em;
+  top: 0;
+}
+#awards .timeline h3 {
+  margin-top: 0;
+}
+#awards .timeline time {
+  font-style: italic;
+}
+
+@media screen and (min-width: 40em) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  #awards .timeline:before {
+    left: 90%;
+  }
+  #awards .timeline ul {
+    padding-left: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  #awards .timeline li {
+    width: 85%;
+	 float: left;
+	 margin-left:10px;
+  }
+
+}

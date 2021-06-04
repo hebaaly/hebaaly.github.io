@@ -1,0 +1,31 @@
+#morenews, #lessnews{
+	cursor: pointer;
+	font-weight: bold;
+    color: #CB4154;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+#lessnews{
+	display: none;
+}
+
+#news .timeline tr:nth-child(n+13) {
+    display:none;
+}
+
+#moreawards2, #lessawards2{
+	cursor: pointer;
+	font-weight: bold;
+    color: #CB4154;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+#lessawards2{
+	display: none;
+}
+
+#awards2 tr:nth-child(n+5) {
+    display:none;
+}

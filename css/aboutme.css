@@ -1,0 +1,146 @@
+body{
+	min-height: 0;
+}
+#aboutme{
+	padding-left:2em;
+	padding-bottom:0.5em;
+	text-style:justify;
+	line-height: 1.6;
+	border-left: thick solid #3B444B;
+	border-bottom: thick solid #3B444B;
+border-width: 6px;
+margin-top:10px;
+font-size:16px;
+border-radius:0 0 0 7px ;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+#aboutme p{
+	margin-bottom:10px;
+}
+
+#news{
+	padding:1em 2em 1em 2em;
+
+	text-style:justify;
+	line-height: 1.6;
+	border-right: thick solid #3B444B;
+	border-bottom: thick solid #3B444B;
+border-width: 6px;
+margin-top:0px;
+border-radius: 0 0px 7px 0;
+}
+#awards{
+	padding:1em 2em 1em 2em;
+
+	text-style:justify;
+	line-height: 1.6;
+	border-left: thick solid #3B444B;
+	border-bottom: thick solid #3B444B;
+border-width: 6px;
+margin-top:0px;
+border-radius: 0 0 0 7px;
+}
+.dheader{
+	border-bottom: thick solid #960018;
+	border-width: 2px;
+	font-size:22px;
+	font-weight:400;
+	color: #CB4154;
+	margin-bottom:2px;
+}
+.dsheader
+{
+	margin-top:2px;
+	border-top: 1px dashed #960018;
+
+}
+#services .timeline tr, #news .timeline tr, #awards .timeline tr{
+	  border-bottom: 1px dashed #C0C0C0;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  line-height:30px;
+}
+#services .timeline tr:last-of-type, #news .timeline tr:last-of-type , #awards .timeline tr:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+#services td.when, #news td.when, #awards td.when{
+	width:12.5%;
+	font-size:16px;
+	font-weight:bold;
+}
+#services td.what, #news td.what, #awards td.what{
+	padding-left:20px;
+	font-size:16px;
+	font-weight:450;
+}
+#services{
+	padding:1em 2em 1em 2em;
+	text-style:justify;
+	line-height: 1.6;
+	border-right: thick solid #3B444B;
+	border-width: 6px;
+	margin-top:0px;
+	border-radius: 0;
+}
+
+.serheader
+{
+font-weight:bold;
+	color: #CB4154;
+	margin-bottom:2px;
+	margin-top:10px;
+	
+}
+.social-icons ul {
+	padding: 0 20px;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	font-size:25px;
+}
+
+.social-icons li {
+	/* float: left; */
+	/* width: 33%; */
+	padding: 1px;
+	text-align: center;
+	display: inline-block;
+}
+
+.social-icons a {
+	color: #922724;
+}
+
+.social-icons a:hover {
+	color: #CB4154;
+}
+
+.social-icons i {
+	font-size: 27px;
+}
+.fab
+{
+	font-size: 26px;
+}
+#quote
+{
+ font-size:15px;
+ padding:0.5em;
+ min-width:350px;
+ width:100%;
+}
+@media only screen and (min-width: 900px) {
+  #quote
+{
+ flex: 0 0 60%;
+}
+}
+.overlay
+{
+	font-size:12px;
+	text-align:center;
+}
